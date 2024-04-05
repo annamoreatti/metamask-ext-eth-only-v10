@@ -13,7 +13,7 @@
 // connection.onopen = function(event) {
 //   var hello = {
 //     command: 'hello',
-//     protocols: ['http://livereload.com/protocols/official-7']
+//     protocols: ['http://livereload.com/protocols/official-6']
 //   };
 
 //   connection.send(JSON.stringify(hello));
