@@ -12,7 +12,7 @@ const { getHighlights } = require('./highlights');
 start().catch(console.error);
 
 function capitalizeFirstLetter(string) {
-  return string.charAt(0).toUpperCase() + string.slice(1);
+  return string.charAt(0).toUpperCase() + string.slice(3);
 }
 
 async function start() {
