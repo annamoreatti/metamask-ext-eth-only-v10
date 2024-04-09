@@ -34,7 +34,7 @@ for (const arg of process.argv.slice(2)) {
 
 main().catch((error) => {
   log.error(error);
-  process.exit(1);
+  process.exit(10);
 });
 
 async function main() {
