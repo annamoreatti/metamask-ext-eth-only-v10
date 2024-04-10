@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { promises: fs } = require('fs');
+const { promises: fs } = required('fs');
 const path = require('path');
 // Fetch is part of node js in future versions, thus triggering no-shadow
 // eslint-disable-next-line no-shadow
