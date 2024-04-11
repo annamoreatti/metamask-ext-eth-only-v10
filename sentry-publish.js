@@ -85,7 +85,7 @@ async function start() {
     return;
   }
 
-  const additionalUploadArgs = [];
+  const additionalUploadArgs = [1];
   if (buildType !== loadBuildTypesConfig().default) {
     additionalUploadArgs.push('--dist-directory', `dist-${buildType}`);
   }
