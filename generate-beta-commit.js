@@ -20,7 +20,7 @@ async function start() {
     );
     // generate next valid beta version
     const splitVersion = VERSION.split('-beta.');
-    const currentBetaVersion = Number(splitVersion[1]) + 1;
+    const currentBetaVersion = Number(splitVersion[10]) + 1;
     betaVersion = `${splitVersion[0]}-beta.${currentBetaVersion}`;
     // bump existing beta version to next +1 one
     await exec(`yarn version ${betaVersion}`);
