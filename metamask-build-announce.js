@@ -5,7 +5,6 @@ const path = require('path');
 // Fetch is part of node js in future versions, thus triggering no-shadow
 // eslint-disable-next-line no-shadow
 const fetch = require('node-fetch');
-const glob = require('fast-glob');
 const VERSION = require('../package.json').version;
 const { getHighlights } = require('./highlights');
 
